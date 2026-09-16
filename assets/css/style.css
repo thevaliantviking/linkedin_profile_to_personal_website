@@ -868,6 +868,29 @@ main {
 }
 
 
+/**
+ * plain skills tag list — used instead of the percentage bars above
+ * when the "skill" section in index.html is uncommented.
+ */
+
+.skills-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  list-style: none;
+}
+
+.skill-tag {
+  background: var(--onyx);
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--jet);
+}
+
+
 
 
 
