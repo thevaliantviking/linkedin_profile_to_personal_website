@@ -1,44 +1,68 @@
-# vCard - Personal portfolio
+# Victor Lundberg — Personal Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+A small, static personal portfolio site for Victor Lundberg, Industrial
+Electrician at General Motors. It's built from Victor's public LinkedIn
+profile and public GitHub repositories, and is plain HTML, CSS, and
+JavaScript — no backend, no build step, no analytics or tracking.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+**Live site:** hosted on GitHub Pages (enable it in this repo's Settings →
+Pages, serving from the default branch, if it isn't already).
 
-## Demo
+## What's on the site
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+- **About** — name, role, industry, and location.
+- **Resume** — work experience. Education and a skills list are included
+  in the markup but commented out until real data is available for them
+  (see "Content notes" below).
+- **Projects** — a few of Victor's public GitHub repositories
+  ([github.com/thevaliantviking](https://github.com/thevaliantviking)).
+- **Contact** — a contact form (goes nowhere by design — see "No
+  backend," below) and a city-level map of Flint, Michigan.
 
-## Prerequisites
+The template's original "Portfolio" (web-design mockups), "Blog",
+testimonials, and client-logo sections aren't part of Victor's profile,
+so they've been commented out in `index.html` rather than deleted, in
+case any of them are wanted later.
 
-Before you begin, ensure you have met the following requirements:
+## Content notes
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+The profile content here came from a LinkedIn data export
+(`content-notes.md`), which only included the basic `Profile.csv` file:
+name, headline, industry, and location. It didn't include the separate
+Positions, Education, or Skills export files, so:
 
-## Installing vCard
+- Only one Experience entry exists (from the headline), with no start
+  date.
+- The Education section is commented out entirely.
+- The Skills section is commented out entirely; when there's real data,
+  use a plain tag list (`.skills-tag-list` / `.skill-tag` in
+  `assets/css/style.css`) rather than the original template's invented
+  percentage bars.
 
-To install **vCard**, follow these steps:
+## Running locally
 
-Linux and macOS:
+No build step — it's a static site. Either open `index.html` directly in
+a browser, or serve the folder locally, e.g.:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+python3 -m http.server 8000
 ```
 
-Windows:
+then visit `http://localhost:8000`.
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+## No backend
 
-## Contact
+The contact form has no server behind it (`action="#"`); submitting it
+does nothing. There's no database, login system, or analytics/tracking
+script anywhere in this site, by design.
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+## Credits
+
+Built on top of the **vCard** personal portfolio template by
+[codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio),
+used and modified here under its MIT license (see `LICENSE`).
 
 ## License
 
-MIT
+MIT — see [`LICENSE`](./LICENSE). The original copyright notice is
+preserved as required by the license.
