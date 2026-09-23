@@ -25,7 +25,9 @@ Contact
 
 About me
 
-Victor Lundberg is an Industrial Electrician at General Motors, working in Motor Vehicle Manufacturing and based near Grand Blanc, Michigan.
+Victor Lundberg is a licensed Michigan Journeyman Electrician who has worked as an Industrial Electrician at General Motors since 2017, based near Grand Blanc, Michigan. He completed a U.S. Department of Labor Registered Apprenticeship in 2022 and holds an Associate of Science in Electronics and Electrical Technology from Mott Community College, along with an earlier Associate of Science in General Studies.
+
+Outside the plant, he has been building programming and IT skills, completing certificates in C++ programming and Google IT Support in 2025. A few of his C++ and other projects are on the Projects page.
 
 
 # resume
@@ -33,10 +35,30 @@ Victor Lundberg is an Industrial Electrician at General Motors, working in Motor
 Resume
 
 Experience
-
 Industrial Electrician — General Motors
-Present
-Motor Vehicle Manufacturing, Grand Blanc, Michigan.
+January 2017 — Present
+Industrial electrical work in motor vehicle manufacturing.
+
+Education
+Mott Community College
+Completed December 2020
+Associate of Science (AS), Electronics and Electrical Technology
+
+Mott Community College
+Completed December 2011
+Associate of Science (AS), General Studies
+
+Licenses & certifications
+Michigan Journeyman Electrician License - Issued April 2024, Expires January 2027 - LARA - Verify this license on the LARA website
+U.S. Department of Labor Registered Apprenticeship - Completed September 2022
+Google IT Support - July 2025 - Google, via Coursera - View the Google IT Support certificate
+Programming in C++: A Hands-on Introduction Specialization - June 2025 - Codio, via Coursera - View the C++ specialization certificate
+OSHA 10-Hour General Industry Safety and Health - February 2018 - CareerSafe
+OSHA 10-Hour Construction Safety and Health - February 2018 - CareerSafe
+Basic Life Support (BLS) - Valid through March 2028 - American Heart Association
+
+Skills
+Electrical Troubleshooting, Electrical Controls, Electrical Maintenance, Electrical Wiring, Electrical Design, Electrical Safety, General Industry Safety, CPR, AED
 
 
 # projects
@@ -84,6 +106,6 @@ Send Message
 Note: this file is a plain-text mirror of the page copy for quick
 reference/editing. It only reflects sections currently visible on the
 site. Several original template sections (Blog, testimonials, clients,
-the old "Portfolio" mockups, Education, and a skills list) are commented
+the old "Portfolio" mockups, and an expired BLS certification) are commented
 out in index.html rather than deleted, in case they're wanted again
 later — see the comments in index.html for details.

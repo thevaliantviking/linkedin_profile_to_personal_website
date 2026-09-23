@@ -10,34 +10,27 @@ Pages, serving from the default branch, if it isn't already).
 
 ## What's on the site
 
-- **About** — name, role, industry, and location.
-- **Resume** — work experience. Education and a skills list are included
-  in the markup but commented out until real data is available for them
-  (see "Content notes" below).
-- **Projects** — a few of Victor's public GitHub repositories
+- **About**: a short summary of Victor's role, license, training, and programming work.
+- **Resume**: experience, education, licenses and certifications, and skills.
+- **Projects**: a few of Victor's public GitHub repositories
   ([github.com/thevaliantviking](https://github.com/thevaliantviking)).
-- **Contact** — a contact form (goes nowhere by design — see "No
-  backend," below) and a city-level map of Flint, Michigan.
+- **Contact**: a contact form (goes nowhere by design; see "No
+  backend" below) and a city-level map of Flint, Michigan.
 
-The template's original "Portfolio" (web-design mockups), "Blog",
-testimonials, and client-logo sections aren't part of Victor's profile,
-so they've been commented out in `index.html` rather than deleted, in
-case any of them are wanted later.
+The template's original "Portfolio" mockups, "Blog", testimonials, and
+client-logo sections aren't part of Victor's profile, so they're
+commented out in `index.html` rather than deleted, in case any of them
+are wanted later.
 
 ## Content notes
 
-The profile content here came from a LinkedIn data export
-(`content-notes.md`), which only included the basic `Profile.csv` file:
-name, headline, industry, and location. It didn't include the separate
-Positions, Education, or Skills export files, so:
+Content comes from a LinkedIn data export. See `content-notes.md` for
+exactly what was used and what's still missing. A few deliberate choices:
 
-- Only one Experience entry exists (from the headline), with no start
-  date.
-- The Education section is commented out entirely.
-- The Skills section is commented out entirely; when there's real data,
-  use a plain tag list (`.skills-tag-list` / `.skill-tag` in
-  `assets/css/style.css`) rather than the original template's invented
-  percentage bars.
+- License and credential numbers aren't printed on the page. Links only
+  go to public verification or certificate pages.
+- Expiry dates to update after renewal: Michigan Journeyman license
+  (January 2027) and Basic Life Support card (March 2028).
 
 ## Running locally
 
